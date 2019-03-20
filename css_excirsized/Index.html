@@ -8,8 +8,8 @@
             }
             h1{
                 position: absolute;
-                left: 500px;
-                top: 50px;
+                left: 10px;
+                top: 10px;
                 color: ghostwhite;
                 font-family: "android", sans-serif;
                 font-size: 50px;
@@ -23,11 +23,52 @@
                 font-family: monospace;
                 margin: 2px 10px 0 0 ;
             }
-        
+            div.square{
+                background-color: darkviolet;
+                width: 100px;
+                height: 100px;
+                border: outset 10px darkcyan;
+                position: absolute;
+                left: 500px;
+                top: 500px;
+                box-shadow: 10px 5px 30px darkblue;
+                background-image: repeating-linear-gradient(darkviolet, blueviolet, violet, white);
+            }
+            div.circle{
+                background-color: darkcyan;
+                width: 110px;
+                height: 110px;
+                border-radius: 100%;
+                position: absolute;
+                left: 700px;
+                top: 500px;
+                border: inset 7px darkviolet;
+                box-shadow: 10px 5px 30px lightblue;
+                background-image: linear-gradient(darkcyan, cyan, lightblue, white);
+            }
+            div.oval{
+                background-color: blueviolet;
+                width: 200px;
+                height: 120px;
+                border-radius: 100%;
+                position: absolute;
+                left: 900px;
+                top: 500px;
+                border: double 10px cyan;
+                box-shadow: 10px 5px 30px blue;
+            }
         </style>
+        <script>
+        
+        
+        </script>
     </head>
     <body>
         <h1>CSS Exercises</h1>
         <h3>vol.1</h3>
+        <div class="square"></div>
+        <div class="circle"></div>
+        <div class="oval"></div>
+        <div class="triagle"></div>
     </body>
 </html>
