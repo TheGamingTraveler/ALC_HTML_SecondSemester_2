@@ -33,6 +33,7 @@
                 top: 500px;
                 box-shadow: 10px 5px 30px darkblue;
                 background-image: repeating-linear-gradient(darkviolet, blueviolet, violet, white);
+                transition: 2.5s;
             }
             div.circle{
                 background-color: darkcyan;
@@ -45,17 +46,54 @@
                 border: inset 7px darkviolet;
                 box-shadow: 10px 5px 30px lightblue;
                 background-image: linear-gradient(darkcyan, cyan, lightblue, white);
+                transition: 2.5s;
             }
             div.oval{
                 background-color: blueviolet;
                 width: 200px;
-                height: 120px;
+                height: 130px;
                 border-radius: 100%;
                 position: absolute;
                 left: 900px;
                 top: 500px;
                 border: double 10px cyan;
                 box-shadow: 10px 5px 30px blue;
+                transition: 2.5s;
+            }
+            img#fox{
+                display: block;
+                width: 200px;
+                height: auto;
+                border-radius: 50%;
+                border: outset 7px white;
+                position: absolute;
+                left: 100px;
+                top: 460px;
+                z-index: 1;
+                transition: 2.5s;
+            }
+            img#fox:hover{
+                width: 380px;
+                border: outset 3.5px black;
+                border-radius: 25%;
+            }
+            div.oval:hover{
+                width: 400px;
+                height: 260px;
+                border: double 3.5px black;
+                border-radius: 100%;
+            }
+            div.circle:hover{
+                width: 220px;
+                height: 220px;
+                border: inset 3.5px black;
+            }
+            div.square:hover{
+                width: 200px;
+                height: 200px;
+                border: outset 3.5px black;
+            }
+             div.triagle{
             }
         </style>
         <script>
@@ -70,5 +108,6 @@
         <div class="circle"></div>
         <div class="oval"></div>
         <div class="triagle"></div>
+        <img src="block_fox.jpg" id="fox">
     </body>
 </html>
