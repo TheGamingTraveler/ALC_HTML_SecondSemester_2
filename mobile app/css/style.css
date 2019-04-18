@@ -11,3 +11,43 @@ html,body,div,h1,h2,h3,h4,h5,h6,p,ul,ol,li,nav,header,footer{
 body{
     background-color: antiquewhite;
 }
+div#container{
+    width: 700px;
+    height: 500px;
+    background-color: darkcyan;
+    /*border: 5px solid;
+    border-radius: 5%;*/
+}
+header{
+    width:95.5%;
+    padding: 15px;
+    background-color:cadetblue;
+}
+header h1{
+    color:black;
+    font-family: 'Monoton', cursive;
+    font-size: 2em;
+}
+div#content{
+    width: 100%;
+    background-color: cornflowerblue;
+}
+nav{
+    width: 100%;
+    background-color:#36b1e8;
+}
+nav ul{
+    display: block;
+    margin: auto;
+    font-family: 'VT323', monospace;
+    font-size:;
+    list-style: none;
+ 
+}
+nav ul li{
+    float: left;
+    padding: 5px 15px
+}
+.keepopen{
+    clear: both;
+}
