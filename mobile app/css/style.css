@@ -9,17 +9,17 @@ html,body,div,h1,h2,h3,h4,h5,h6,p,ul,ol,li,nav,header,footer{
 
 /* Universal Style */
 body{
-    background-color: antiquewhite;
+    background-color: darkgray;
 }
 div#container{
     width: 100%;
-    border: 3px dashed darkcyan;
-    background-color: darkcyan;
+    border: 3px solid darkslategray;
+    background-color: royalblue;
 }
 header{
     width:97%;
     padding: 15px;
-    background-color:cadetblue;
+    background-color:#3b0000;   
 }
 header img#applogo{
     display: block;
@@ -27,7 +27,7 @@ header img#applogo{
     width: 100px;
 }
 header h1{
-    color:black;
+    color:dimgray;
     font-family: 'Monoton', cursive;
     font-size: 2em;
     text-align: center;
