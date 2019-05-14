@@ -66,7 +66,7 @@ div#product_grp{
 }
 figure.product{
     float: left;
-    margin: 10px;
+    margin: 10px 15px;
     min-width: 30%;
     max-width: 50%;
     background-color: cornflowerblue;
@@ -74,8 +74,8 @@ figure.product{
 }
 figure.product img{
     display: block;
-    padding: 10px 0;
-    width: 80%;
+    padding: 0px 0;
+    width: 40%;
     margin: auto;
 }
 figure.product figcaption{
@@ -83,6 +83,33 @@ figure.product figcaption{
     color: black;
     font-family: fantasy;
     font-size: 24px;
+}
+.keepOpen{
+    clear: both;
+}
+@media screen and (max-width: 600px){
+    figure.product{
+        float: none;
+        margin: 5px auto;
+        min-width: 40%;
+        max-width: 100%;
+        background-color: cornflowerblue;
+        border-radius: 5%;
+    }
+    figure.product figcaption{
+        text-align: center;
+        color: black;
+        font-family: fantasy;
+        font: 13px;
+    }
+}
+
+legend, span, input, textarea{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: 'times new roman';
+    color:black;
 }
 /*nav{
     width: 100%;
@@ -116,15 +143,5 @@ footer{
     height: 50px;
     background-color:darkslateblue;
 }
-.keepOpen{
-    clear: both;
-}
-@media screen and (max-width: 600px){
-    div#container{
-        width: 100%;
-    }
-    nav ul li a{
-        float: none;
-        text-align: center;
-    }
-}*/
+
+*/
