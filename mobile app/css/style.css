@@ -67,7 +67,7 @@ div#product_grp{
 }
 figure.product{
     float: left;
-    margin: 10px 15px;
+    margin: 0px 15px;
     min-width: 30%;
     max-width: 50%;
     background-color: gray;
