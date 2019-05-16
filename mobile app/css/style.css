@@ -63,14 +63,18 @@ div#product_grp{
     max-width: 80%;
     min-width: 20%;
     margin: auto;
+    
 }
 figure.product{
     float: left;
     margin: 10px 15px;
     min-width: 30%;
     max-width: 50%;
-    background-color: cornflowerblue;
+    background-color: gray;
     border-radius: 5%;
+    margin-top: 50px;
+    
+    
 }
 figure.product img{
     display: block;
